@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración de Output en JavaScript</title>
+  </head>
+  <body>
+    <h1>Demostración de Output en Javascript</h1>
+	
+	<p id="parrafo">
+	</p>
+
+    <button onclick="mostrarAlerta()">Click para ver alerta</button>
+	
+	<button onclick="cambiarContenido()">Click para mostrar texto</button>
+
+    <script>
+        // Mensaje en consola cuando carga la página
+        console.log("¡Página cargada");
+		
+    
+        // Función para mostrar alerta con nombre
+        function mostrarAlerta() {
+            // Cambia "Tu Nombre" por tu nombre real
+           alert("¡Hola! Mi nombre es Hector Eduardo Rdz-");
+        }
+
+        // Función para cambiar el contenido de un parrafo
+		function cambiarContenido() {
+        document.getElementById("parrafo").innerHTML = "¡Texto actualizado con Javascript!";
+       }
+        
+        
+        
+       
+    </script>
+  </body>
+</html>

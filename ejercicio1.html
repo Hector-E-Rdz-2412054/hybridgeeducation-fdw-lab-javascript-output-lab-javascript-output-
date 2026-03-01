@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+  </head>
+  <body>
+    <p id="cambiar"></p>
+    <button onclick="cambiarContenido()">Click para mostar texto</button>
+
+    <script>
+      function cambiarContenido() {
+        document.getElementById("cambiar").innerHTML = "¡Texto actualizado con Javascript!";
+      }
+    </script>
+  </body>
+</html>
